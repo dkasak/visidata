@@ -23,4 +23,16 @@ To save and restore a session in VisiData:
 2. Press `gq` to quit VisiData.
 3. Replay the cmdlog, on the commandline: `vd -p fn.vd`.
 
+# How to replay a cmdlog on a different filename
+
+1. Load the **CommandLog**:
+
+    a. Either open an already saved .vd with `vd foo.vd`.
+
+    *or*
+
+    b. Load the **CommandLog** for the current session with `Shift+D` (commands executed on current sheet only) or `g Shift+D` (commands executed in the entire session).
+
+
+
 ---
