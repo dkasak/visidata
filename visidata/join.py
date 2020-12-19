@@ -69,7 +69,7 @@ class JoinKeyColumn(Column):
         vals = set()
         for i, c in enumerate(self.keycols):
             if row[i] is not None:
-                vals.add(c.getValue(row[i]))
+                vals.add(c.getDisplayValue(row[i]))
         if len(vals) == 1:
             return vals.pop()
         else:
